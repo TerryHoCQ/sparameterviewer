@@ -4,7 +4,7 @@ from .structs import LoadedSParamFile, PlotData, PlotDataQuantity
 from .plot import PlotHelper
 from .appsettings import AppSettings
 from .utils import get_unique_short_filenames, is_windows
-from .expressions import ExpressionParser
+from .expressions import ExpressionParser, SParam
 from .tkinter_helpers import TkText, TkCommon
 from .appglobal import AppGlobal
 from .excel import ExcelGen
